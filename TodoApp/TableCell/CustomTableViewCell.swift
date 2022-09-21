@@ -10,9 +10,12 @@ import UIKit
 class CustomTableViewCell: UITableViewCell {
     
     static let identifier = "CustomTableViewCell"
+    
+    //MARK: - Outlets
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     
+    //MARK: - NIB/XIB
     static func nib() -> UINib {
         return UINib(nibName: "CustomTableViewCell", bundle: nil)
     }

@@ -7,6 +7,8 @@
 
 import Foundation
 
+//MARK: - Extensions
+//date formatter
 extension Date {
     
     func dateToString() -> String {
